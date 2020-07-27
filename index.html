@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=MuseoModerno:wght@100;300;400&family=Pangolin&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Foody</h1><span>Taste Forever</span>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <a class="menu-mob" href="#" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    
+    <div id="mob-menu" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section id="home">
+        <h1 class="h-primery">
+            Welcome To Online Restrocenter
+        </h1>
+        <p class="para">Food bring people Together on many different levels. <br>It's nourishment of the soul and and body; it's truly love</p>
+
+        <a class="btn">Order Now</a>
+
+    </section>
+    <!--services section-->
+    <section class="services-container">
+        <h1 class="h-primery text-center">Our Services</h1>
+        <div id="services">
+            <div class="box text-center">
+                <img src="foody3.jpg" alt="foody">
+                <h2 class="h-secondry center">Food Ordering</h2>
+                <p class="liflet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore
+                    blanditiis! Voluptas,
+                    tempora doloremque. Voluptatum inventore quam harum magnam cumque iusto earum sint? Corporis.</p>
+            </div>
+            <div class="box text-center">
+                <img src="foody4.jpg" alt="foody">
+                <h2 class="h-secondry center">Maga Ordering</h2>
+                <p class="liflet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore
+                    blanditiis! Voluptas,
+                    tempora doloremque. Voluptatum inventore quam harum magnam cumque iusto earum sint? Corporis.</p>
+            </div>
+            <div class="box text-center">
+                <img src="foody6.jpg" alt="foody">
+                <h2 class="h-secondry center">Bulk Ordering</h2>
+                <p class="liflet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore
+                    blanditiis! Voluptas,
+                    tempora doloremque. Voluptatum inventore quam harum magnam cumque iusto earum sint? Corporis.</p>
+            </div>
+            <div class="box text-center">
+                <img src="foody7.jpg" alt="foody">
+                <h2 class="h-secondry center">Caterine services</h2>
+                <p class="liflet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore
+                    blanditiis! Voluptas,
+                    tempora doloremque. Voluptatum inventore quam harum magnam cumque iusto earum sint? Corporis.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- client section
+    <section id="client-section">
+        <h1 class="h-primery text-center">Our Client</h1>
+        <div id="client">
+            <div class="client-item">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="logo2.png" alt="">
+            </div>
+            
+        </div>
+    </section>
+    -->
+
+     <!-- contact section-->
+    <section id="contact">
+        <h1 class="h-primery text-center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg" cols="30" rows="4"></textarea>
+
+                </div>
+                <div class="form-group">
+                    <input type="submit"></div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            Copyright &copy; @onlinemedia
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mob-menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
